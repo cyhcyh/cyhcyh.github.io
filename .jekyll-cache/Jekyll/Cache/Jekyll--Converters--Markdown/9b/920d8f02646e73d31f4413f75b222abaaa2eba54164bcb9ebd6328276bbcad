@@ -1,4 +1,4 @@
-I":<h1 id="group-members">Group Members</h1>
+I"ù<h1 id="group-members">Group Members</h1>
 
 <p>Jump to <a href="#staff">staff</a>, <a href="#postdoctor">Postdoctor</a>, <a href="#phd-students">Ph.D Students</a>, <a href="#master-and-bachelor-students">Master and Bachelor Students</a>, <a href="#former-visitors-students">Former visitors, students</a>.</p>
 
@@ -127,8 +127,8 @@
 <div class="row">
 
   <div class="col-sm-6 clearfix">
-    <h4>Thijs van den Munckhof</h4>
-    <p><i>Master student <!-- <br>email: <m.ortego.larrazabal@umail.leidenuniv.nl></i> --></i></p>
+    <h4>Example</h4>
+    <p><i>Master student <!-- <br>email: <Example@Example.com></i> --></i></p>
     <ul style="overflow: hidden">
 
   
@@ -143,8 +143,8 @@
   </div>
 
   <div class="col-sm-6 clearfix">
-    <h4>JoÃ£o van der Ven</h4>
-    <p><i>BSc student <!-- <br>email: <m.ortego.larrazabal@umail.leidenuniv.nl></i> --></i></p>
+    <h4>Example</h4>
+    <p><i>BSc student <!-- <br>email: <Example@Example.com></i> --></i></p>
     <ul style="overflow: hidden">
 
   

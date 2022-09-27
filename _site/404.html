@@ -21,8 +21,46 @@ MathJax = {
 };
 </script>
 
+<style>
+.dropbtn {
+    display: block;
+    color: #999999;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
+.dropbtn:hover {
+    color: black;
+    text-decoration: none;
+}
 
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 999;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
 
 
 
@@ -42,16 +80,24 @@ MathJax = {
 		<span class="icon-bar"></span>
 	  </button>
 	
-    <img style="float:left; margin: 5px; " src="http://localhost:4000/images/logopic/logo.png" width="45px" height="45px"><a class="navbar-brand" href="http://localhost:4000/">USTC Combinatorics Center</a>
+    <img style="float:left; margin: 5px; " src="http://localhost:4000/images/logopic/logo.png" width="45px" height="45px"><a class="navbar-brand" href="http://localhost:4000/">USTC Combinatorics Group</a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="http://localhost:4000/">Home</a></li>
 		<li><a href="http://localhost:4000/team">People</a></li>
-		<li><a href="http://localhost:4000/grants">Grants</a></li>
-		<li><a href="http://localhost:4000/seminar">Seminar</a></li>
-		<li><a href="http://localhost:4000/pictures">Pictures</a></li>
-		<li><a href="https://ustc.edu.cn/">USTC</a></li>
+		<li>
+		<div class="dropdown">
+    <a href="#" class="dropbtn">Events</a>
+    <div class="dropdown-content">
+      <a href="http://localhost:4000/seminar">Seminar</a>
+      <a href="http://localhost:4000/workshops">Workshops and Conferences</a>
+    </div>
+  </div>
+  </li>
+		<li><a href="http://localhost:4000/news">News</a></li>
+		<li><a href="http://localhost:4000/hiring">Hiring</a></li>
+		<li><a href="http://localhost:4000/Visiting.html">Visiting</a></li>
 	  </ul>
 	</div>
   </div>
@@ -69,10 +115,11 @@ MathJax = {
     <div id="footer" class="panel">
   <div class="panel-footer">
 	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
+	  <div class="row" style="display: flex;
+    justify-content: center;">
+		<div class="col-sm-4" style="text-align: center;">
 
-		  <p>&copy 2022 USTC Combinatorics Center. Site made with <a href="https://jekyllrb.com">Jekyll</a></p>
+		  <p>&copy 2022 USTC Combinatorics Group.<br>Site made with <a href="https://jekyllrb.com">Jekyll</a>.</p>
               
 
 
@@ -80,17 +127,8 @@ MathJax = {
 
 
 		</div>
-		<div class="col-sm-4">
-		  <p>We are part of the <a href="http://math.ustc.edu.cn/main.htm">School of Mathematical Sciences</a> at <a href="https://ustc.edu.cn/">University of Science and Technology of China</a>.</p>
-		</div>
-		<div class="col-sm-4">
-		  Contact:<br />
-		  School of Mathematical Sciences,<br />University of Science and Technology of China<br />
-		  Jinzhai Road 96,
-		  Hefei 230026,
-		  Anhui Province, P.R.China <br />
-            (<a href="https://goo.gl/maps/TonRiuGeXrhMx1su7">Maps</a>)
-		</div>
+		
+		
 	  </div>
 	</div>
   </div>
