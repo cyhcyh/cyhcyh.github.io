@@ -1,5 +1,5 @@
 ---
-title: "USTC Combinatorics Center - Grants"
+title: "USTC Combinatorics Group - Grants"
 layout: gridlay
 excerpt: "Grants."
 sitemap: false

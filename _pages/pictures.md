@@ -1,7 +1,7 @@
 ---
-title: "USTC Combinatorics Center - Pictures"
+title: "USTC Combinatorics Group - Pictures"
 layout: piclay
-excerpt: "USTC Combinatorics Center - Pictures"
+excerpt: "USTC Combinatorics Group - Pictures"
 permalink: /pictures/
 ---
 

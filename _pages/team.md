@@ -1,7 +1,7 @@
 ---
-title: "USTC Combinatorics Center - Team"
+title: "USTC Combinatorics Group - Team"
 layout: gridlay
-excerpt: "USTC Combinatorics Center: Team members"
+excerpt: "USTC Combinatorics Group: Team members"
 sitemap: false
 permalink: /team/
 ---

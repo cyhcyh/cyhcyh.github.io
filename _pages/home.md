@@ -1,7 +1,7 @@
 ---
-title: "USTC Combinatorics Center - Home"
+title: "USTC Combinatorics Group - Home"
 layout: homelay
-excerpt: "USTC Combinatorics Center."
+excerpt: "USTC Combinatorics Group."
 sitemap: false
 permalink: /
 ---

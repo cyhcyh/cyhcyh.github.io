@@ -1,5 +1,5 @@
 ---
-title: "USTC Combinatorics Center - Seminar"
+title: "USTC Combinatorics Group - Seminar"
 layout: seminar
 excerpt: "Combinatorics Seminar."
 sitemap: false
@@ -51,7 +51,6 @@ permalink: /seminar/
 <p> &nbsp; </p>
 
 ## Past talks
-
 
 
 
